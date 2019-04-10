@@ -33,11 +33,11 @@
       background-color: grey;
       border: none;
       text-align: center;
-      text-decoration: none;
       display: inline-block;
       font-size: 16px;
       cursor: pointer;
       top: 70px;
+      font-weight:bold;
     }
     
   </style>

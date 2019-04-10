@@ -39,7 +39,6 @@
       top: 70px;
       font-weight:bold;
     }
-    
   </style>
 </head>
 <body>
@@ -48,10 +47,10 @@
       <li class="navbar-brand" href="#">
         <img src="assets/logo.png">
       </li>
-        <a class="nav-link" href="#">PARTISIPASI</a>
-        <a class="nav-link" href="#">BLOG</a>
-        <a class="nav-link" href="#">ACADEMY</a>
-        <a class="nav-link" href="#">HELLO FEST</a>
+        <a class="nav-item nav-link" href="#">PARTISIPASI</a>
+        <a class="nav-item nav-link" href="#">BLOG</a>
+        <a class="nav-item nav-link" href="#">ACADEMY</a>
+        <a class="nav-item nav-link" href="#">HELLO FEST</a>
         <button style="background-color: grey; border: none;">
             <input type="submit" class="button" value="Daftar!" />
             <input type="submit" class="button" value="Login"/>

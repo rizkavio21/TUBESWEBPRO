@@ -15,6 +15,7 @@
     background-color: #1b1818;
     font-family: 'Montserrat' , sans-serif;
     font-weight: bolder;
+    font-size:16px;
     }
 
     .navbar{
@@ -51,10 +52,12 @@
         <a class="nav-item nav-link" href="#">BLOG</a>
         <a class="nav-item nav-link" href="#">ACADEMY</a>
         <a class="nav-item nav-link" href="#">HELLO FEST</a>
-        <button style="background-color: grey; border: none;">
+        <div class="nav navbar-nav navbar-right">
+          <button style="background-color: grey; border: none;">
             <input type="submit" class="button" value="Daftar!" />
             <input type="submit" class="button" value="Login"/>
-        </button>
+          </button>
+    </div>
       </li>
     </ul>
   </div>

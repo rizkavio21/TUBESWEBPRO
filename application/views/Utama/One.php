@@ -8,24 +8,30 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="assets/back.css">
+  <style>
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
   <style type="text/css">
     body{
-    background-color: #1b1818;
-    font-family: 'Montserrat' , sans-serif;
-    font-weight: bolder;
-    font-size:16px;
+      font-family: 'Montserrat' , sans-serif;
+      font-weight: bolder;
+      font-size:16px;
     }
-
+    .carousel-inner img {
+      width: 100%;
+      height: 100%;
+    }
+  
     .navbar{
       background-color: #1aaed0;
+      align:center;
+      margin-right: auto;
+      margin-left: auto;
 
     }
     .nav-link{
       color: #FFFFFF;
       position: relative;
-      font-weight: italic;
+      font-weight:bold;
     }
     .nav-link:hover {
     color: #FFFF00;
@@ -38,7 +44,7 @@
       font-size: 16px;
       cursor: pointer;
       top: 70px;
-      font-weight:bold;
+      
     }
   </style>
 </head>

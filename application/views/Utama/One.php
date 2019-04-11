@@ -8,13 +8,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <style>
-  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel='stylesheet'>
   <style type="text/css">
     body{
       font-family: 'Montserrat' , sans-serif;
       font-weight: bolder;
       font-size:16px;
+      background-color: rgb(35, 35, 35);
     }
     .carousel-inner img {
       width: 100%;
@@ -23,7 +23,7 @@
   
     .navbar{
       background-color: #1aaed0;
-      align:center;
+      text-align:center;
       margin-right: auto;
       margin-left: auto;
 
@@ -32,6 +32,8 @@
       color: #FFFFFF;
       position: relative;
       font-weight:bold;
+      content: 52px 20px;
+      padding: 0 8px 0 8px;
     }
     .nav-link:hover {
     color: #FFFF00;
@@ -53,12 +55,13 @@
     <ul class="navbar navbar-default navbar-fixed-top">
       <li class="navbar-brand" href="#">
         <img src="assets/logo.png">
-      </li>
+      </li> 
+        <a class="nav-item nav-link" href="#">HOME</a>
         <a class="nav-item nav-link" href="#">PARTISIPASI</a>
         <a class="nav-item nav-link" href="#">BLOG</a>
         <a class="nav-item nav-link" href="#">ACADEMY</a>
         <a class="nav-item nav-link" href="#">HELLO FEST</a>
-        <div class="nav navbar-nav navbar-right">
+        <div id="userinfo" class="nav navbar-nav navbar-right">
           <button style="background-color: grey; border: none;">
             <input type="submit" class="button" value="Daftar!" />
             <input type="submit" class="button" value="Login"/>
@@ -66,6 +69,7 @@
     </div>
       </li>
     </ul>
+  </div>
   </div>
 
 </body>
